@@ -1,0 +1,14 @@
+<div *ngIf="!authenticated" id="login" class="autopulous-dialog">
+    <h2>{{userAuthenticationHeading}}</h2>
+    <form (ngSubmit)="onSubmit(form)" #form="ngForm">
+        <div class="autopulous-control">
+            <label for="username">{{usernameLabel}}</label>
+            <input ngControl="username" type="text" id="username" required>
+        </div>
+        <div class="autopulous-control">
+            <label for="password">{{passwordLabel}}</label>
+            <input ngControl="password" type="password" id="password" required>
+        </div>
+        <button type="submit" class="autopulous-button">{{submitButtonLabel}}</button>
+    </form>
+</div>

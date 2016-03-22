@@ -1,0 +1,9 @@
+<div *ngIf="authenticated" id="logout" class="autopulous-dialog">
+    <h2>{{heading}}</h2>
+    <form (ngSubmit)="onSubmit(form)" #form="ngForm">
+        <div class="autopulous-dialog-text">
+            <p>{{usernameLabel}} {{username}}</p>
+        </div>
+        <button type="submit" class="autopulous-button">{{submitButtonLabel}}</button>
+    </form>
+</div>
