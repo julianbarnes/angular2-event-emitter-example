@@ -104,7 +104,7 @@ Multiple components can subscribe to the event (repeat steps 4-7 in other compon
 ## Usage
 1: Clone the Git repository
 ```
-git clone https://github.com/autopulous/angular2-event-emmitter-example.git
+git clone https://github.com/autopulous/angular2-event-emitter-example.git
 ```
 2: Install required npm packages (from the command line/terminal)
 ```
