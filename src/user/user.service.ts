@@ -1,6 +1,7 @@
-import {Output, EventEmitter} from 'angular2/core';
+import {Injectable, Output, EventEmitter} from 'angular2/core';
 import {User} from './value.objects';
 
+@Injectable()
 export class UserService {
     private user:User;
 
