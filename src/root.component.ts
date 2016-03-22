@@ -6,7 +6,7 @@ import {LogoutComponent} from './user/logout/logout.component';
     selector: 'root',
     template: `
         <login></login>
-        <logout><</logout>
+        <logout></logout>
     `,
     directives: [LoginComponent, LogoutComponent]
 })
